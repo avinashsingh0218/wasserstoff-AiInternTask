@@ -1,0 +1,21 @@
+genai-intern-game/
+├── backend/
+│   ├── api/
+│   │   └── routes.py
+│   ├── core/
+│   │   ├── ai_client.py
+│   │   ├── cache.py
+│   │   ├── game_logic.py
+│   │   └── moderation.py
+│   ├── db/
+│   │   └── models.py
+│   └── main.py
+├── frontend/
+│   ├── index.html
+│   └── app.js
+├── tests/
+│   └── e2e_duplicate_test.py
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
